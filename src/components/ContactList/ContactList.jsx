@@ -1,4 +1,4 @@
-import ContactItem from "/src/components/ContactItem/ContactItem.jsx";
+import Contact from "/src/components/Contact/Contact.jsx";
 import s from "./ContactList.module.css";
 
 const ContactList = ({ list, onDelete }) => {
@@ -6,7 +6,7 @@ const ContactList = ({ list, onDelete }) => {
     <>
       <ul className={s.conList}>
         {list.map((item) => (
-          <ContactItem
+          <Contact
             key={item.id}
             name={item.name}
             phone={item.number}
