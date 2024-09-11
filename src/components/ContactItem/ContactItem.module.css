@@ -1,0 +1,40 @@
+.listItem {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  width: 250px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.itemName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.itemPhone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.deleteButton {
+  padding: 0;
+  margin: 0;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+}
+.personalInfo {
+  padding: 0;
+  margin: 0;
+}
+.iconPhone {
+  width: 20px;
+  height: 20px;
+}
+.iconUser {
+  width: 20px;
+  height: 20px;
+}
